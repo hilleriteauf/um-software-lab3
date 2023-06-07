@@ -15,4 +15,8 @@ public class Item {
     public double getPrice() {
         return price;
     }
+
+    public String toString() {
+        return "{ name: " + this.name + ", price: " + this.price + " }";
+    }
 }
